@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">MyQuiz</string>
     <string name="buttonOK">Button</string>
+    <string name="textview"></string>
+    <string name="radiobutton"></string>
     <string name="prox">Prox</string>
     <string name="resetar">Resetar</string>
+    <string name="todo">TODO</string>
 </resources>

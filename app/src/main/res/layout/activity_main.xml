@@ -79,4 +79,46 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <ImageView
+        android:id="@+id/imagemDuvida5"
+        android:layout_width="83dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="36dp"
+        android:contentDescription="@string/todo"
+        android:rotation="40"
+        android:src="@android:drawable/ic_menu_help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imagemDuvida6"
+        android:layout_width="83dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:layout_marginBottom="108dp"
+        android:contentDescription="@string/todo"
+        android:rotation="0"
+        android:src="@android:drawable/ic_menu_help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imagemDuvida7"
+        android:layout_width="83dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="236dp"
+        android:layout_marginRight="236dp"
+        android:layout_marginBottom="36dp"
+        android:contentDescription="@string/todo"
+        android:rotation="-40"
+        android:src="@android:drawable/ic_menu_help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="#FFFFFF" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
