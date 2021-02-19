@@ -21,32 +21,32 @@ public class MainActivity extends Activity {
     public Button botaoOk;
     public Button botaoReseta;
 
-    String[] Perguntas = {"Primeira pergunta?",
-            "Segunda  pergunta?",
-            "Terceira pergunta?",
-            "Quarta pergunta?",
-            "Quinta pergunta?"};
+    String[] Perguntas = {"Quem descobriu as américas?",
+            "Conhece-te a ti mesmo, é uma pergunta de que filosofo?",
+            "Quem defendeu a ideia que o Sol era o centro do nosso sistema solar?",
+            "Quem é o verdadeiro inventor da lâmpada?",
+            "Quem foi responsavel pela descoberta da radioatividade?"};
 
-    String[] OpcaoA = {"Resposta A primeira pergunta.",
-            "Resposta A segunda pergunta.",
-            "Resposta A terceira pergunta.",
-            "Resposta A quarta pergunta.",
-            "Resposta A quinta pergunta."};
+    String[] OpcaoA = {"Cristóvão Colombo.",
+            "Aristóteles.",
+            "Galileu Galilei.",
+            "Leonardo da Vinci.",
+            "Marie Curie."};
 
-    String[] OpcaoB = {"Resposta B primeira pergunta.",
-            "Resposta B segunda pergunta.",
-            "Resposta B terceira pergunta.",
-            "Resposta B quarta pergunta.",
-            "Resposta B quinta pergunta."};
+    String[] OpcaoB = {"Pedro Álvares Cabral.",
+            "Sócrates.",
+            "Isaac Newton.",
+            "Nikola Tesla.",
+            "Louis Pasteur."};
 
-    String[] OpcaoC = {"Resposta C primeira pergunta.",
-            "Resposta C segunda pergunta.",
-            "Resposta C terceira pergunta.",
-            "Resposta C quarta pergunta.",
-            "Resposta C quinta pergunta."};
+    String[] OpcaoC = {"Vasco da Gama.",
+            "Platão.",
+            "Albert Einstein.",
+            "Thomas Edison.",
+            "Alexander Fleming."};
 
     int[] listaRespostas = new int[Perguntas.length];
-    int[] listaGabarito = {1,2,3,1,2};
+    int[] listaGabarito = {1,2,1,3,1};
 
     int respostasCorretas = 0;
     int numeroPergunta = 0;
